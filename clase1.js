@@ -35,9 +35,26 @@ function sumaypotencia (x, b)
 }
 alert (sumaypotencia(6, 7))
 
-function Saludar (Nombre,Apellido)
+function Saludar (nombre, apellido)
 {
-    let Nombre = 'Marti'
-    return 'Bienvenido/a' +  Nombre + Apellido
+return  'bienvenido' + nombre + apellido
 }
-Saludar( 'Clara',)
+alert(Saludar(Martina, Ferrando)) 
+
+function operacion (x)
+{
+    let resultado = cuadrado (x) + 5
+    return resultado
+cuadrado (100)
+
+/* 1) Crear ubna funcion que calcule el cuadrado de un numero
+2) Crear una funciom que calcule el cubo de un numero 
+3) Crer una funcion por cada de las siguientes operaciones:
+a) x^2-x-10
+b) (x-3)*2
+c)x*x^2+20
+d)(x/2)+5
+e) x^3+x^2+10
+f)(x*10)*5
+
+*/
